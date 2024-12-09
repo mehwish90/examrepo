@@ -7,7 +7,7 @@ const Contact = () => {
       {/* Header Section */}
       <div className="relative">
         <div className="absolute inset-0">
-          <Image src="/Rectangle 1 (1).png" width={1400} height={200} alt="Filter Icon" />
+          <Image src="/Images/Rectangle 1 (1).png" width={1400} height={200} alt="Filter Icon" />
         </div>
         <div className="relative z-10 text-center py-20">
           <h1 className="text-4xl font-bold text-black">Contact</h1>
@@ -17,7 +17,7 @@ const Contact = () => {
       <br />
       {/* Content Section */}
       <div className="text-center py-12 px-6">
-        <h2 className="text-3xl font-extrabold text-black mt-8">
+        <h2 className="text-5xl font-extrabold text-black mt-8">
           Get In Touch With Us
         </h2>
         <p className="text-gray-600 mt-4 max-w-3xl mx-auto">

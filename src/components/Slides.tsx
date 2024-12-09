@@ -20,14 +20,14 @@ export default function SlideSection() {
       {/* Images Section */}
       <div className="slideImages flex flex-col gap-4 md:flex-row">
         <Image
-          src="/inner.png"
+          src="/Images/inner.png"
           width={250}
           height={250}
           alt="Inner Peace Room Inspiration"
           className="rounded-lg shadow-md"
         />
         <Image
-          src="/SideInner.png"
+          src="/Images/SideInner.png"
           width={250}
           height={250}
           alt="Side Inner Room Inspiration"

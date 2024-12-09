@@ -1,4 +1,5 @@
 
+import FuniroFurniture from "@/components/Furniture";
 import Hero from "@/components/Hero";
 import Heroproduct from "@/components/Heroproduct";
 import Products from "@/components/Product";
@@ -13,6 +14,7 @@ export default function Home() {
       <Heroproduct />
       <Products />
 <SlideSection/>
+       <FuniroFurniture/>
 
 
     </div>

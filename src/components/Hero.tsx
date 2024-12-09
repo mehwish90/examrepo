@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Hero Image */}
       <div className="relative w-full">
         <Image
-          src="/image1.png"
+          src="/Images/image1.png"
           layout="responsive"
           width={1440}
           height={600}

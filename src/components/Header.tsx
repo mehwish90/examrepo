@@ -17,7 +17,7 @@ export default function Header() {
       <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8">
         {/* Logo */}
         <div className="logo">
-          <Image src="/logo.png" width={185} height={41} alt="Logo" />
+          <Image src="/Images/Logo.png" width={185} height={41} alt="Logo" />
         </div>
 
         {/* Navigation Links */}
@@ -39,10 +39,10 @@ export default function Header() {
             Shop
           </Link>
           <Link
-            href="/blog"
+            href="/Cart"
             className="text-gray-700 hover:text-purple-500 transition"
           >
-            Blog
+            Cart
           </Link>
           <Link
             href="/Contact"

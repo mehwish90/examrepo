@@ -14,19 +14,19 @@ export default function Heroproduct() {
       <div className="flex flex-col md:flex-row justify-center items-center gap-6">
         {/* Dining */}
         <div className="flex flex-col items-center">
-          <Image src="/dining.png" width="282" height="300" alt="Dining Image" />
+          <Image src="/Images/dining.png" width="282" height="300" alt="Dining Image" />
           <h6 className="mt-4 font-bold text-gray-800">Dining</h6>
         </div>
 
         {/* Living */}
         <div className="flex flex-col items-center">
-          <Image src="/living.png" width="282" height="300" alt="Living Image" />
+          <Image src="/Images/living.png" width="282" height="300" alt="Living Image" />
           <h6 className="mt-4 font-bold text-gray-800">Living</h6>
         </div>
 
         {/* Bedroom */}
         <div className="flex flex-col items-center">
-          <Image src="/bedroom.png" width="282" height="300" alt="Bedroom Image" />
+          <Image src="/Images/bedroom.png" width="282" height="300" alt="Bedroom Image" />
           <h6 className="mt-4 font-bold text-gray-800">Bedroom</h6>
         </div>
       </div>
