@@ -44,7 +44,7 @@ export default function Products() {
       name: 'Grifo',
       price: 'Rp 1.500.000',
       age: 28,
-      image: "/Images/images 5.png",
+      image: "/Images/image 5.png",
       description: 'Night lamp',
     },
     {
