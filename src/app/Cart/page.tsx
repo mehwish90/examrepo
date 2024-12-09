@@ -72,7 +72,7 @@ export default function Cart() {
         </div>
         <div>
           <Image
-            src="/Images/vector (1).png"
+            src="/Images/vecter1.png"
             width={40}
             height={40}
             alt="Picture of the author"
