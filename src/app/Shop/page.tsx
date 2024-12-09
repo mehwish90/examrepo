@@ -7,14 +7,14 @@ const Shop = () => {
           id: 1,
           name: "Stylish Chair",
           price: "Rp 2,500,000",
-          image: "/Images/image 5.png.png",
+          image: "/Images/image 5.png",
           description: "A modern and stylish chair for your home.",
         },
         {
           id: 2,
           name: "Comfortable Sofa",
           price: "Rp 7,000,000",
-          image: "/Images/images 5.png",
+          image: "/Images/image 5.png",
           description: "A luxury sofa to add comfort and style to your living room.",
         },
         {
@@ -42,7 +42,7 @@ const Shop = () => {
             id: 6,
             name: "Bedroom Lamp",
             price: "Rp 1,200,000",
-            image: "/Images/image 5.png.png",
+            image: "/Images/image 5.png",
             description: "A sleek lamp to brighten your room.",
           },{
             id: 7,
