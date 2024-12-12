@@ -1,9 +1,9 @@
 export default function Footer() {
     return (
       <footer className="bg-white">
-        {/* Footer Main Section */}
+        
         <div className="container mx-auto py-8 px-4 md:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 border-t-2 border-gray-100">
-          {/* Logo and Address */}
+          
           <div className="space-y-4">
             <h2 className="font-bold text-2xl">Funiro.</h2>
             <p className="text-gray-400">
@@ -11,7 +11,7 @@ export default function Footer() {
             </p>
           </div>
   
-          {/* Navbar Links */}
+          
           <div className="space-y-4">
             <h4 className="font-semibold text-lg text-gray-400">Links</h4>
             <ul className="space-y-2 text-black font-semibold">
@@ -22,7 +22,7 @@ export default function Footer() {
             </ul>
           </div>
   
-          {/* Help Section */}
+          
           <div className="space-y-4">
             <h4 className="font-semibold text-lg text-gray-400">Help</h4>
             <ul className="space-y-2 text-black">
@@ -32,7 +32,7 @@ export default function Footer() {
             </ul>
           </div>
   
-          {/* Newsletter Section */}
+          
           <div className="space-y-4">
             <h4 className="font-semibold text-lg text-gray-400">Newsletter</h4>
             <form className="flex flex-col space-y-2">
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
         </div>
   
-        {/* Footer Bottom Section */}
+        
         <div className="bg-gray-white py-4">
           <div className="container mx-auto text-center text-gray-400">
             <hr className="mb-2" />

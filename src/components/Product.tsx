@@ -72,19 +72,19 @@ export default function Products() {
 
   return (
     <>
-      {/* Products Section */}
+    
       <div className="text-center p-6">
         <h2 className="text-3xl font-bold">Our Products</h2>
       </div>
 
-      {/* Cards Container */}
+    
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6">
         {data.map((card, index) => (
           <div
             className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
             key={index}
           >
-            {/* Image */}
+      
             <Image
               src={card.image}
               alt={card.name}
@@ -92,7 +92,7 @@ export default function Products() {
               height={200}
               className="w-full h-64 object-cover"
             />
-            {/* Card Body */}
+            
             <div className="p-4">
               <h5 className="text-lg font-bold text-gray-800">{card.name}</h5>
               <p className="text-sm text-gray-600">{card.description}</p>

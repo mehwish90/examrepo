@@ -70,7 +70,7 @@ const Shop = () => {
             src="/Images/Rectangle 1 (1).png"
             width={1400}
             height={50}
-            alt="Background"
+            alt="Image"
           />
         </div>
         <div className="relative z-10 text-center py-20">
@@ -79,11 +79,11 @@ const Shop = () => {
         </div>
       </div>
 
-      {/* Filter and Sort Bar */}
+      
       <div className="showBlowBar w-full h-16 bg-[#F9F1E7] flex items-center justify-between px-4 md:px-8">
-        {/* Left Section */}
+        
         <div className="flex items-center gap-4">
-          {/* Filter */}
+          
           <div className="flex items-center gap-2">
             <p className="text-sm font-medium">Filter</p>
           </div>
@@ -92,9 +92,9 @@ const Shop = () => {
           </p>
         </div>
 
-        {/* Right Section */}
+        
         <div className="flex items-center gap-4">
-          {/* Show Input */}
+          
           <div className="flex items-center gap-2">
             <p className="text-sm font-medium">Show</p>
             <input
@@ -104,7 +104,7 @@ const Shop = () => {
             />
           </div>
 
-          {/* Sort Input */}
+          
           <div className="flex items-center gap-2">
             <p className="text-sm font-medium">Sort by</p>
             <input
@@ -116,22 +116,22 @@ const Shop = () => {
         </div>
       </div>
 
-      {/* Products Section */}
+      
       <div className="bg-gray-50 py-8 mx-16">
         <div className="container mx-auto px-4">
-          {/* Page Title */}
+          
           <h1 className="text-2xl font-bold text-gray-800 text-center mb-6">
             Shop Our Products
           </h1>
 
-          {/* Products Grid */}
+          
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {products.map((product) => (
               <div
                 key={product.id}
                 className="bg-white rounded-lg shadow-md overflow-hidden"
               >
-                {/* Product Image */}
+          
                 <Image
                   src={product.image}
                   alt={product.name}
@@ -140,7 +140,7 @@ const Shop = () => {
                   className="w-full h-48 object-cover"
                 />
 
-                {/* Product Details */}
+              
                 <div className="p-4">
                   <h3 className="text-lg font-semibold text-gray-800">
                     {product.name}
@@ -151,7 +151,7 @@ const Shop = () => {
                   </p>
                 </div>
 
-                {/* Add to Cart Button */}
+                
                 <div className="p-4 border-t">
                   <button className="w-full py-2 text-sm font-bold text-white bg-purple-500 rounded hover:bg-purple-600">
                     Add to Cart

@@ -30,7 +30,7 @@ export default function SlideSection() {
           src="/Images/Sideinner.png"
           width={250}
           height={250}
-          alt="Side Inner Room Inspiration"
+          alt="Side Inner Room "
           className="rounded-lg shadow-md"
         />
       </div>

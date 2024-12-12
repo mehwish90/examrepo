@@ -8,7 +8,7 @@ export default function Heroadd() {
       <div className="flex items-center gap-4">
         {/* Filter Icon */}
         <div className="flex items-center gap-2">
-          <Image src="/Images/Rectangle 1(1).png"width={30} height={30} alt="Filter Icon" />
+          <Image src="/Images/Rectangle 1(1).png"width={30} height={30} alt=" Icon" />
           <p className="text-sm font-medium">Filter</p>
         </div>
         <p className="text-sm font-medium hidden md:block">| Showing 1–16 of 32 results</p>
